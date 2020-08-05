@@ -1,0 +1,91 @@
+#home{
+  background-color: #63CCFD;
+}
+
+#navbar {
+  background-color:  #63CCFD;
+}
+
+#logo{
+   height: 3%;
+   width: 3%;
+}
+#dandy_hacks{
+  height: 50%;
+  width: 50%;
+}
+
+.registration{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  
+}
+#about{
+  background-color: #7FC876;
+}
+#fox_hammock{
+  height: 30%;
+  width: 30%;
+}
+#help_images{
+  height: 100%;
+  width: 50%;
+}
+.help_elements {
+  display: flex;
+  flex: row;
+}
+  /* #footer{
+    position: absolute;
+    bottom: 5px;
+    font-size: 14px;
+    font-weight: 500.3;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF
+}
+#heart{
+    margin-left: 5px; 
+    margin-right: 5px;
+} */
+  
+  ::-webkit-input-placeholder {
+    text-align: left;
+  }
+  
+  :-moz-placeholder {
+    text-align: left;
+  }
+  input[type="text"]::placeholder {  
+                  
+    /* Firefox, Chrome, Opera */ 
+    text-align: right; 
+} 
+#linkedin{
+    padding: 0px 3px;
+}
+a{
+    text-decoration: none;
+}
+
+#facebook{
+  width:9.5%;
+  height: 9.5%;
+  padding: 0px 4px;
+}
+@media(max-width: 900px) {
+    #flower{
+      height: 120px;
+      width: 80px;
+      margin-top: 40px;
+      }
+      #logo{
+        height: 70px;
+        width: 110px;
+      }
+      #footer{
+        font-size: 12px;
+      }
+  } 
+  

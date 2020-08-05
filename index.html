@@ -1,14 +1,102 @@
-<<!DOCTYPE HTML>
-<html lang = "en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-  <title>dandyhacks</title>
-  <meta charset = "UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300&display=swap" rel="stylesheet">
+    <title>DandyHacks</title>
 </head>
 <body>
+    <header>
+        <nav >
+            <div id="navbar">
+                <a href="#home"> <img id = "logo" src ="img/flower.png"> </a> 
+                <a href="#about">About</a>
+                <a href="#help">Help Out</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#faq">FAQ</a>
+                <a href="#sponser">Sponsers</a>
+                <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2021/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=white" target="_blank"><img src="img/mlh.svg" alt="Major League Hacking 2021 Hackathon Season" style="width:100%"></a>
+            </div> 
+            </nav> 
+    </header>
 
-  <p>
-    Let's set up a great website!
-  </p>
+    <section id= "home">
+        <div class="registration">
+            <img  id="dandy_hacks" src ="img/2020Logo.png">
+            <p> A virtual Hackathon for all</p>
+            <p>October 23-25th, 2020</p>
+            <button id="register"> Register </button>
+        </div>  
+    </section>
+
+    <section id="about">
+        <p> About</p>
+        <div>
+            <img id="fox_hammock" src ="img/fox_hammock.png">
+            <p>Meliora! 
+                    Dandyhacks grows ever better, as we enter our 8th year as the University of Rochester’s hackathon, and our 1st as a 
+                    virtual one! Being a fully student-led organization at a tier 1 research university, we try to embody our school’s 
+                    values as we seek to encourage participants to question the world and learn more.
+                    Growing with Us
+                    A big part of learning and growing is acknowledging what you don’t know. At DandyHacks, we are fully committed to being
+                    an accessible and beginner-friendly hackathon. This means having workshops at an introductory and intermediate level for 
+                    platforms such as Git, MongoDB, and Firebase. Coupled with networking events, and snacks (!) dotted throughout the 36 hours
+                    of our virtual hackathon, we hope that regardless of your experience and background in coding, you will learn something new,
+                    and have fun all the while.
+            </p>
+        </div>
+    </section>
+    <section id="help">
+        <p> Help Out</p>
+        <div class= "help_elements">
+            <figure>
+                <img id="help_images" src ="img/hog_hole.png"> 
+                <figcaption>Mentors</figcaption>
+            </figure>
+            <figure>
+                <img id="help_images" src ="img/fox_hole.png"> 
+                <figcaption>Workshop Leaders</figcaption>
+            </figure>    
+        </div>
+
+    </section>
+    <section id="schedule">
+
+    </section>
+    <section id="faq">
+
+    </section>
+    <section id="sponsers">
+
+    </section>
+    
+    <script>
+            // When the user scrolls down 20px from the top of the document, slide down the navbar
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("navbar").style.top = "0";
+              } else {
+                document.getElementById("navbar").style.top = "-50px";
+              }
+            }
+            </script>
+            
 </body>
 </html>
+    <!-- <section id="signup">
+             <div class="social_icons">
+                <a href="https://www.facebook.com/dandyhacks/"><img  id="facebook" src="img/facebook.png"> </a>
+                <a href="https://twitter.com/dandyhacks" ><img id="facebook" src="img/twitter.png"></a> 
+                <a href="https://instagram.com/dandyhacks_"> <img id="facebook" src="img/instagram.png"></a>
+                <a href="https://www.linkedin.com/company/dandyhacks/"><img id="facebook" src="img/linkedin.png"></a>
+        </div>
+        <div id="footer">
+            Made with <img id = "heart" src="https://img.icons8.com/fluent/28/000000/hearts.png"/> at the University of Rochester
+         </div> 
+      
+    </section> -->
