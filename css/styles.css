@@ -1,5 +1,11 @@
 #home{
   background-color: #63CCFD;
+  height: 100vh; 
+  background-image: url("../img/nonGif.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 70px; /*Padding to avoid the navbar*/
 
 }
 .navbar{
@@ -79,9 +85,7 @@ display: block;
   height: 50%;
   width: 50%;
 }
-#home{
-margin-top: 86px;
-}
+
 #about{
   background-color: #7FC876;
 }
@@ -106,7 +110,7 @@ margin-top: 86px;
 .registration{
   width: 100%;
   text-align: center;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   
 }
 #help{
@@ -179,3 +183,7 @@ a{
       }
   } 
   
+
+  .fa {
+	color: black;
+}
