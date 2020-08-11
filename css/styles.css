@@ -1,14 +1,94 @@
 #home{
   background-color: #63CCFD;
+
+}
+.navbar{
+  font-family: 'Open Sans', sans-serif ;
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+}
+.navbar .navbar-nav .nav-link {
+  margin-left: 60px;
 }
 
-#navbar {
-  background-color:  #63CCFD;
+.navbar .navbar-nav a{
+color: #4E7B93 !important;
+}
+.navbar .nav-link:hover{
+color: white !important;
 }
 
-#logo{
-   height: 3%;
-   width: 3%;
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:rgba(174, 231, 248, 0.842) ;
+  overflow-x: hidden;
+  transition: 0.5s;
+  margin-top: 30px;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: 0.3s;
+ font-family:'Muli', sans-serif;
+display: block;
+  font-size: 40px;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #4E7B93;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.nav-icon{
+   font-size:30px;
+   cursor:pointer;
+   display: block;
+   text-align: right;
+}
+.navbar {
+    background-color: #B2EDFF; 
+}
+/* 
+.navbar navbar-nav{
+  text-align: center;
+}
+.navbar navbar-toggler-icon{
+  color: black;
+}
+nav .navbar-nav a {
+  font-family: 'Open Sans', sans-serif ;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+nav .navbar-nav li a{
+  color: #4E7B93 !important;
+  } */
+.row{
+  margin-left: 0px !important;
 }
 #dandy_hacks{
   height: 50%;
