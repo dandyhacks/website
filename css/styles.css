@@ -1,11 +1,69 @@
+.overlay2 { position: relative; overflow: hidden; }*, ::after, ::before { box-sizing: inherit; }* { box-sizing: border-box; }
+.animation { z-index: -999;width: 100%; height: 100%; }
+/* img { border-style: none; } */
+/* img { max-width: 100%; padding: 0px; margin: 0px 0px 1.45rem; } */
+.date { font-weight: 900; text-transform: uppercase; position: absolute; top: 43%; transform: translate(-50%, -50%); left: 50%; font-size: 3vh; font-family: "Press Start 2P", cursive; }.date, .preText { color: rgb(255, 255, 255); margin: 0px; }h1 { font-size: 2em; margin: 0.67em 0px; }h1 { color: inherit; font-family: "Press Start 2P", cursive; font-weight: 700; font-size: 2.25rem; }h1, h2 { padding: 0px; margin: 0px 0px 1.45rem; text-rendering: optimizelegibility; line-height: 1.1; }@media only screen and (max-width: 840px){#mlh-trust-badge { display: block; max-width: 75px; min-width: 45px; position: fixed; left: 25px; top: 0px; z-index: 10000; width: 75px; }}@media only screen and (max-width: 567px){#mlh-trust-badge { display: block; max-width: 75px; min-width: 45px; position: fixed; left: 10px; top: 0px; z-index: 10000; width: 50px; }}@media only screen and (max-width: 1140px){.date { font-size: 2.5vh; }}@media only screen and (max-width: 880px){.date { font-weight: 900; color: rgb(255, 255, 255); text-transform: uppercase; margin: 0px; position: absolute; top: 45%; transform: translate(-50%, -50%); left: 50%; }}@media only screen and (max-width: 840px){.date { font-size: 2vh; }}@media only screen and (max-width: 567px){.date { font-size: 1.1vh; top: 40%; }}
+
+
+.text{
+    text-transform: uppercase; position: absolute; top: 43%; transform: translate(-50%, -50%); left: 50%; font-size: 3vh;
+}
+
+
+ /* Container holding the image and the text */
+ .container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+  }
+
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3vh
+  } 
+  #dandy_hacks2{
+    height: 50%;
+    width: 50%;
+
+  }
+
+
+
+
+
+#gifImg{
+    width: 100%;
+    z-index: -1;
+    /* height: 100%; */
+}
+
+
+
+
+
+
+
 #home{
   background-color: #63CCFD;
-  height: 100vh; 
-  background-image: url("../img/nonGif.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  /* height: 100vh;  */
+  /* background-image: url("../img/nonGif.png");
+    background-size: cover;
+
+    padding:0;
+    margin:0; */
   padding-top: 70px; /*Padding to avoid the navbar*/
+  height: 100vh;
+
+
+}
+.gifImg{
+    background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+
 
 }
 .navbar{
@@ -84,6 +142,10 @@ display: block;
 #dandy_hacks{
   height: 50%;
   width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #about{
@@ -110,6 +172,7 @@ display: block;
 .registration{
   width: 100%;
   text-align: center;
+  position: absolute;
   /* margin-top: 30px; */
   
 }
