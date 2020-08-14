@@ -179,7 +179,9 @@ display: block;
 #help{
   background-color: #7FC876;
 }
-
+#footer{
+    background-color: #308726;
+}
 #fox_hammock{
   height: 400px;
   width: 450px;
