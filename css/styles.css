@@ -15,8 +15,9 @@
     position: relative;
     text-align: center;
     color: white;
-    padding-top: 70px;
+    /* padding-top: 70px; */
   }
+  
 
   /* Centered text */
   .centered {
