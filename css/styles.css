@@ -33,10 +33,6 @@
 
   }
 
-
-
-
-
 #gifImg{
     width: 100%;
     z-index: -1;
@@ -139,6 +135,7 @@ display: block;
 
 .row{
   margin-left: 0px !important;
+  width: 100%;
 }
 #dandy_hacks{
   height: 50%;
@@ -150,7 +147,8 @@ display: block;
 }
 
 #about{
-  background-color: #7FC876;
+  background-image: url("/img/top.png");
+  
 }
 
 .row #about-element{
@@ -178,7 +176,11 @@ display: block;
   
 }
 #help{
-  background-color: #7FC876;
+  background-image: url("/img/middle.png");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+
 }
 #footer{
     background-color: #308726;
@@ -188,12 +190,12 @@ display: block;
   width: 450px;
 }
 #help_images{
-  height: 100%;
-  width: 50%;
+  height: 90%;
+  width: 40%;
 }
 #help_image_fox{
-  height: 100%;
-  width: 43%;
+  height: 90%;
+  width: 40%;
 }
 .help_elements {
   display: flex;
@@ -208,8 +210,9 @@ figcaption{
   font-family: 'Open Sans', sans-serif ;
   font-size: 45px;
   font-weight: 600;
+  padding-bottom: 200px;
 }
-  
+
   ::-webkit-input-placeholder {
     text-align: left;
   }
