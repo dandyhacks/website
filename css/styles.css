@@ -256,3 +256,17 @@ a{
   .fa {
 	color: black;
 }
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #BD8868;
+    color: white;
+}
+
+.panel{
+    min-height: 150px !important;
+    max-height: 150px;
+    min-width: 500px !important;
+    max-width: 500px;
+}
+
