@@ -14,22 +14,31 @@
  .container2 {
     position: relative;
     text-align: center;
-    color: white;
-    /* padding-top: 70px; */
+    color: white; 
   }
   
-
+  #signup_button{
+    background-color:  #FDE854;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 75px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #988A3A;
+    box-shadow: 0px 4px 0px #988A3A;
+ }
   /* Centered text */
   .centered {
     position: absolute;
-    top: 43%;
+    top: 28%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3vh
   } 
   #dandy_hacks2{
-    height: 50%;
-    width: 50%;
+    height: 80%;
+    width: 80%;
 
   }
 
@@ -38,13 +47,21 @@
     z-index: -1;
     /* height: 100%; */
 }
+#virtual{
+color: #4E7B93;
+font-family: 'Open Sans', sans-serif ;
+font-weight: 600;
+margin-top: 10px;
+margin-bottom: -2px;
+font-size: 23px;
 
+}
+#date{
+  font-family: 'Open Sans', sans-serif ;
+  font-weight: 600;
+  font-size: 23px;
 
-
-
-
-
-
+}
 #home{
   background-color: #63CCFD;
   /* height: 100vh;  */
