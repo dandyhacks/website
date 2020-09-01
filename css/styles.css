@@ -261,12 +261,39 @@ a{
     background-image: none;
     background-color: #BD8868;
     color: white;
+    border-radius: 5px;
 }
 
 .panel{
-    min-height: 150px !important;
-    max-height: 150px;
-    min-width: 500px !important;
-    max-width: 500px;
+    min-height: 200px !important;
+    max-height: 600px;
+    min-width: 200px !important;
+    max-width: 800px;
 }
+.panel-heading {
+    height: 100px;
+}
+
+.panel-body {
+    color : white;
+}
+
+ @media (min-width: 576px) {
+    .faq {font-size: 1.5em; }
+
+}
+
+@media (max-width: 768px) {
+    .faq{font-size: 2.0em;}
+}
+
+@media (min-width: 992px) {
+    .faq {font-size: 2.0em;}
+}
+
+@media (min-width: 1200px) {
+    .faq{font-size: 2.0em;}
+} 
+
+
 
