@@ -9,36 +9,50 @@
     text-transform: uppercase; position: absolute; top: 43%; transform: translate(-50%, -50%); left: 50%; font-size: 3vh;
 }
 
+  
+
+  
 
  /* Container holding the image and the text */
  .container2 {
     position: relative;
     text-align: center;
     color: white; 
+    padding-top: 100px;
+    font-size: 2rem;
+    background-color:#7de9fd ;
+
   }
+
+
+@media (max-width: 768px) {
+    .container2{font-size: .9rem;}
+}
+
+
   
   #signup_button{
     background-color:  #FDE854;
-    border-radius: 10px;
-    border: none;
-    padding: 10px 75px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    color: #988A3A;
+
     box-shadow: 0px 4px 0px #988A3A;
+    /* width: 30%; */
+    
+    color: #988A3A;
+
+
  }
   /* Centered text */
   .centered {
     position: absolute;
     top: 28%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3vh
+    transform: translate(-50%, -20%);
+    /* font-size: 3vh */
   } 
   #dandy_hacks2{
-    height: 80%;
+    height: auto;
     width: 80%;
+    padding-top: 70px;
 
   }
 
@@ -50,16 +64,15 @@
 #virtual{
 color: #4E7B93;
 font-family: 'Open Sans', sans-serif ;
-font-weight: 600;
-margin-top: 10px;
+/* font-weight: 600; */
 margin-bottom: -2px;
-font-size: 23px;
+/* font-size: 1rem; */
 
 }
 #date{
   font-family: 'Open Sans', sans-serif ;
-  font-weight: 600;
-  font-size: 23px;
+  /* font-weight: 600; */
+  /* font-size: 1rem; */
 
 }
 #home{
@@ -165,6 +178,7 @@ display: block;
 
 #about{
   background-image: url("/img/top.png");
+  padding-top: 20px;
   
 }
 
@@ -203,8 +217,8 @@ display: block;
     background-color: #308726;
 }
 #fox_hammock{
-  height: 400px;
-  width: 450px;
+  height: 80%;
+  width: 80%;
 }
 #help_images{
   height: 90%;
