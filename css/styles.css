@@ -15,30 +15,29 @@
     position: relative;
     text-align: center;
     color: white; 
+    padding-top: 80px;
   }
   
   #signup_button{
     background-color:  #FDE854;
-    border-radius: 10px;
-    border: none;
-    padding: 10px 75px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    color: #988A3A;
+
     box-shadow: 0px 4px 0px #988A3A;
+
+    color: #988A3A;
+
  }
   /* Centered text */
   .centered {
     position: absolute;
     top: 28%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -20%);
     font-size: 3vh
   } 
   #dandy_hacks2{
-    height: 80%;
+    height: auto;
     width: 80%;
+    padding-top: 40px;
 
   }
 
@@ -53,13 +52,13 @@ font-family: 'Open Sans', sans-serif ;
 font-weight: 600;
 margin-top: 10px;
 margin-bottom: -2px;
-font-size: 23px;
+font-size: 1em;
 
 }
 #date{
   font-family: 'Open Sans', sans-serif ;
   font-weight: 600;
-  font-size: 23px;
+  font-size: 1em;
 
 }
 #home{
@@ -203,8 +202,8 @@ display: block;
     background-color: #308726;
 }
 #fox_hammock{
-  height: 400px;
-  width: 450px;
+  height: 80%;
+  width: 80%;
 }
 #help_images{
   height: 90%;
