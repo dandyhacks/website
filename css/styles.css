@@ -202,6 +202,12 @@ display: block;
 
 #footer{
   background-color: #308726;
+  position: absolute;
+  bottom: -2300px;
+  font-size: 14px;
+  font-weight: 500.3;
+  align-items: center;
+  color: #FFFFFF
   
 }
 #fox_hammock{
