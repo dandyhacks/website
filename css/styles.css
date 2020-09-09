@@ -202,13 +202,7 @@ display: block;
 
 #footer{
   background-color: #308726;
-  position: absolute;
-  bottom: -2300px;
-  font-size: 14px;
-  font-weight: 500.3;
-  align-items: center;
-  color: #FFFFFF
-  
+
 }
 #fox_hammock{
   height: 90%;
@@ -226,10 +220,7 @@ display: block;
   display: flex;
   flex: row;
 }
-#meridian{
-  height: 20%;
-  width: 70%;
-}
+
 figcaption{
   color: white;
   font-family: 'Open Sans', sans-serif ;
@@ -274,6 +265,7 @@ a{
       }
       #footer{
         font-size: 12px;
+        bottom: 0;
       }
   } 
   
@@ -293,6 +285,8 @@ a{
 .panel{
     min-height: 150px !important;
     max-height: 1500px;
+    min-height: 150px !important;
+    max-height: 150px;
     min-width: 200px !important;
     max-width: 800px;
 }
@@ -304,11 +298,12 @@ a{
 
 .panel-body {
     color : white;
+    font-size: 20px;
 }
+
 
  @media (min-width: 576px) {
     .faq {font-size: 21px; }
-
 }
 
 @media (max-width: 768px) {
