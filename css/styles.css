@@ -292,13 +292,13 @@ a{
 
 .panel{
     min-height: 150px !important;
-    max-height: 150px;
+    max-height: 1500px;
     min-width: 200px !important;
     max-width: 800px;
 }
 .panel-heading {
     text-align: center;
-    padding-top: 12px;
+    padding-top: 20px;
     padding-bottom: -20px;
 }
 
