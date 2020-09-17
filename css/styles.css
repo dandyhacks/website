@@ -9,7 +9,7 @@
     text-transform: uppercase; position: absolute; top: 43%; transform: translate(-50%, -50%); left: 50%; font-size: 3vh;
 }
 
-  
+/*  */
 
  /* Container holding the image and the text */
  .container2 {
@@ -20,25 +20,11 @@
 
   }
 
+.rushRhees{
+    height: 750px;
 
-@media (max-width: 768px) {
-    .container2{font-size: .9rem;}
 }
 
-
-  
-  #signup_button{
-    background-color:  #FDE854;
-    border-radius: 10px;
-    border: none;
-    padding: 10px 75px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    color: #988A3A;
-    box-shadow: 0px 4px 0px #988A3A;
-
- }
   /* Centered text */
  
   #dandy_hacks2{
@@ -53,18 +39,64 @@
 #virtual{
 color: #4E7B93;
 font-family: 'Open Sans', sans-serif ;
-font-weight: 600;
+font-weight: 700;
 margin-bottom: -2px;
 font-size: 20px;
 }
 .responsive {
-  width: 60%;
+  width: 65%;
   height: auto;
 }
 
+
+@media (max-width: 768px) {
+    .container2{font-size: .9rem;
+
+    
+    }
+    .rushRhees{
+        height: 87vh;
+        /* padding-top: 160px; */
+
+        
+    }
+
+    .responsive {
+        width: 85%;
+        height: auto;
+      }
+
+}
+
+
+
+@media (min-width: 769px) {
+
+    
+    .responsive {
+        width: 40%;
+        height: auto;
+      }
+
+}
+
+  
+  #signup_button{
+    background-color:  #FDE854;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 75px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #988A3A;
+    box-shadow: 0px 4px 0px #988A3A;
+
+ }
+
 #date{
   font-family: 'Open Sans', sans-serif ;
-  font-weight: 600;
+  font-weight: 700;
    font-size: 1rem;
    color: white;
    font-size: 20px;
@@ -130,7 +162,7 @@ color: white !important;
   color: white;
   display: block;
   transition: 0.3s;
- font-family:'Muli', sans-serif;
+ font-family:'Open Sans, sans-serif';
 display: block;
   font-size: 40px;
 }
@@ -169,9 +201,22 @@ display: block;
   transform: translate(-50%, -50%);
 }
 
+#sectionTitles{
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#sectionSubTitles{
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+
+}
+
 #about{
   background-color: #7FC876;
   padding-top: 20px;
+  font-weight: 800;
   
 }
 
@@ -213,8 +258,8 @@ display: block;
   width: 40%;
 }
 #help_image_fox{
-  height: 90%;
-  width: 40%;
+  height: 85%;
+  width: 35%;
 }
 .help_elements {
   display: flex;
@@ -274,7 +319,39 @@ a{
 	color: black;
 }
 
-.panel > .panel-heading {
+.answer{
+    color: white;
+
+}
+
+
+.card-header {
+    background-color: #BD8868;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.card > .card-header {
+    background-image: none;
+    background-color: #BD8868;
+    color: white;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+
+
+}
+
+.card, .card-header, .card-body, .card-footer{
+    border-radius:16px !important;
+    font-family: 'Rubik', sans-serif;
+
+}
+/* .panel > .panel-heading {
     background-image: none;
     background-color: #BD8868;
     color: white;
@@ -282,14 +359,7 @@ a{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.panel{
-    min-height: 150px !important;
-    max-height: 1500px;
-    min-height: 150px !important;
-    max-height: 150px;
-    min-width: 200px !important;
-    max-width: 800px;
-}
+
 .panel-heading {
     text-align: center;
     padding-top: 20px;
@@ -299,23 +369,52 @@ a{
 .panel-body {
     color : white;
     font-size: 20px;
+} */
+.panel{
+    color: white;
+    
 }
 
-
  @media (min-width: 576px) {
-    .faq {font-size: 21px; }
+    .faq {font-size: 24px; 
+        color: white;
+        font-weight: 500;
+        font-family: 'Rubik', sans-serif;
+
+
+
+
+    }
 }
 
 @media (max-width: 768px) {
-    .faq{font-size: 21px;}
+    .faq{font-size: 24px;
+        color: white;
+        font-weight: 500;
+        font-family: 'Rubik', sans-serif;
+
+
+
+}
 }
 
 @media (min-width: 992px) {
-    .faq {font-size: 21px;}
+    .faq {font-size: 24px;
+        color: white;
+        font-weight: 500;
+        font-family: 'Rubik', sans-serif;
+
+
+}
 }
 
 @media (min-width: 1200px) {
-    .faq{font-size: 21px;}
+    .faq{font-size: 24px;
+        color: white;
+        font-weight: 500;
+        font-family: 'Rubik', sans-serif;
+
+}
 } 
 
 
