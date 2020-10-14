@@ -213,12 +213,20 @@ display: block;
 
 }
 
+
+#tracks{
+    background-color: transparent;
+    padding-top: 20px;
+    font-weight: 800;
+}
+
 #about{
   background-color: #7FC876;
   padding-top: 20px;
   font-weight: 800;
   
 }
+
 
 .row #about-element{
   margin-top: 30px;
