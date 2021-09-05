@@ -17,7 +17,7 @@
  .container2 {
     position: relative;
     text-align: center;
-    color: white; 
+    color: white;
     background-image: url("./img/2020Logo.png");
 
   }
@@ -28,7 +28,7 @@
 }
 
   /* Centered text */
- 
+
   #dandy_hacks2{
     padding-top: 100px;
   }
@@ -54,13 +54,13 @@ font-size: 20px;
 @media (max-width: 768px) {
     .container2{font-size: .9rem;
 
-    
+
     }
     .rushRhees{
         height: 87vh;
         /* padding-top: 160px; */
 
-        
+
     }
 
     .responsive {
@@ -74,7 +74,7 @@ font-size: 20px;
 
 @media (min-width: 769px) {
 
-    
+
     .responsive {
         width: 40%;
         height: auto;
@@ -82,7 +82,7 @@ font-size: 20px;
 
 }
 
-  
+
   #signup_button{
     background-color:  #FDE854;
     border-radius: 10px;
@@ -95,7 +95,7 @@ font-size: 20px;
     box-shadow: 0px 4px 0px #988A3A;
 
  }
- 
+
 
 #date{
   font-family: 'Open Sans', sans-serif ;
@@ -126,16 +126,20 @@ font-size: 20px;
   display: block;
   font-size: 20px;
   font-weight: 600;
+  background-color: #1C1C6E !important;
 }
+
 .navbar .navbar-nav .nav-link {
   margin-left: 60px;
 }
 
 .navbar .navbar-nav a{
-color: #4E7B93 !important;
+font-family: Pixel;
+color: white !important;
 }
 .navbar .nav-link:hover{
-color: white !important;
+color: #ffffff !important;
+text-shadow: 0px 4px 5px #8D6AEE;
 }
 
 .overlay {
@@ -188,7 +192,7 @@ display: block;
    text-align: right;
 }
 .navbar {
-    background-color: #B2EDFF; 
+    background-color: #B2EDFF;
 }
 
 .row{
@@ -227,7 +231,7 @@ display: block;
   background-color: #7FC876;
   padding-top: 20px;
   font-weight: 800;
-  
+
 }
 
 
@@ -253,7 +257,7 @@ display: block;
   text-align: center;
   position: absolute;
   margin-top: 30px;
-  
+
 }
 
 #footer{
@@ -288,15 +292,15 @@ figcaption{
   ::-webkit-input-placeholder {
     text-align: left;
   }
-  
+
   :-moz-placeholder {
     text-align: left;
   }
-  input[type="text"]::placeholder {  
-                  
-    /* Firefox, Chrome, Opera */ 
-    text-align: right; 
-} 
+  input[type="text"]::placeholder {
+
+    /* Firefox, Chrome, Opera */
+    text-align: right;
+}
 #linkedin{
     padding: 0px 3px;
 }
@@ -323,8 +327,8 @@ a{
         font-size: 12px;
         bottom: 0;
       }
-  } 
-  
+  }
+
 
   .fa {
 	color: black;
@@ -384,11 +388,11 @@ a{
 } */
 .panel{
     color: white;
-    
+
 }
 
  @media (min-width: 576px) {
-    .faq {font-size: 24px; 
+    .faq {font-size: 24px;
         color: white;
         font-weight: 500;
         font-family: 'Rubik', sans-serif;
@@ -427,7 +431,4 @@ a{
         font-family: 'Rubik', sans-serif;
 
 }
-} 
-
-
-
+}
