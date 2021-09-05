@@ -9,6 +9,8 @@
     text-transform: uppercase; position: absolute; top: 43%; transform: translate(-50%, -50%); left: 50%; font-size: 3vh;
 }
 
+@font-face { font-family: Pixel; src: url('PixelEmulator.otf'); }
+
 /*  */
 
  /* Container holding the image and the text */
