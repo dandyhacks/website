@@ -278,7 +278,7 @@ transform: translate(-50%, -50%);
 #about-element, .section-element{
     display: flex;
     flex-direction: row;
-    justify-content: center
+    justify-content: center;
 }
 
 #about-element img, .section-element img{
@@ -291,13 +291,13 @@ transform: translate(-50%, -50%);
 }
 
 #about-element p, .section-element p{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 100;
     letter-spacing: 0.08em;
     /* text-align: center; */
 }
 
-.row #about-element, .row .section-element{
+#about-element, .row .section-element{
 margin-top: 30px;
 margin-bottom: 60px;
 text-align: left;
@@ -308,7 +308,7 @@ margin-top: 50px;
 }
 .row h2{
 font-family: 'Futura', sans-serif;
-text-align: center;
+/* text-align: center; */
 font-weight: 700;
 color: #308726;
 text-align: center;
