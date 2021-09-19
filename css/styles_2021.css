@@ -215,6 +215,7 @@ font-size: 60px;
 .row{
 margin-left: 0px !important;
 width: 100%;
+justify-content: center;
 }
 
 #dandy_hacks{
@@ -233,7 +234,7 @@ transform: translate(-50%, -50%);
     font-style: normal;
     letter-spacing: 0.08em;
     color: #FFFFFF;
-    text-shadow: 0px -5px 25px #C852FF;
+    text-shadow: 0px -2px 25px #C852FF;
     /* text-shadow: 0px -1px 10px #DFDFFF, 0px -5px 20px #C852FF; */
 }
 
@@ -268,24 +269,35 @@ transform: translate(-50%, -50%);
     text-align: center;
 }
 
-#about{
-background-color: #000033;
-font-weight: 200;
-font-family: 'Futura', sans-serif ;
+#about, .section{
+    background-color: #000033;
+    font-weight: 200;
+    font-family: 'Futura', sans-serif ;
 }
 
-#about-element h3{
+#about-element, .section-element{
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+#about-element img, .section-element img{
+    max-height: 400px;
+}
+
+#about-element h3, .section-element h3{
     font-family: 'Pixel', sans-serif;
+    font-size: 40px;
 }
 
-#about-element p{
-    font-size: 20px;
+#about-element p, .section-element p{
+    font-size: 25px;
     font-weight: 100;
     letter-spacing: 0.08em;
-    text-align: center;
+    /* text-align: center; */
 }
 
-.row #about-element{
+.row #about-element, .row .section-element{
 margin-top: 30px;
 margin-bottom: 60px;
 text-align: left;
@@ -390,31 +402,46 @@ padding: 0px 4px;
 }
 
 
-.card-header {
+/* .card-header {
     background-color: #BD8868;
     border-radius: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-weight: 500;
     font-family: 'Pixel', sans-serif;
+    
 
-}
+} */
 
 .card > .card-header {
-    background-image: none;
-    background-color: #BD8868;
-    color: white;
-    border-radius: 16px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-weight: 500;
+    border: 8px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
     font-family: 'Pixel', sans-serif;
 
-
+    height: 100px;
+    font-family: Pixel Emulator;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
 }
 
 .card, .card-header, .card-body, .card-footer{
     border-radius:16px !important;
     font-family: 'Futura', sans-serif;
+}
 
+.section-element .coming-soon{
+    font-size: 80px;
+    text-align: center;
+}
+
+.section-element .large-coming-soon{
+    font-size: 200px;
 }
 
 /* .panel > .panel-heading {
