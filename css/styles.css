@@ -1045,12 +1045,12 @@ a{
 }
 
 .section-element .coming-soon{
-    font-size: 80px;
+    font-size: 2rem;
     text-align: center;
 }
 
 .section-element .large-coming-soon{
-    font-size: 200px;
+    font-size: 6rem;
 }
 
 /* .panel > .panel-heading {
