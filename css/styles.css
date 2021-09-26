@@ -664,7 +664,6 @@ body {
 }
 
 #virtual{
-    color: #4E7B93;
     font-family: 'Pixel', sans-serif ;
     font-weight: 700;
     margin-bottom: -2px;
@@ -724,10 +723,9 @@ body {
 
 #date{
     font-family: 'Pixel', sans-serif ;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1rem;
     color: white;
-    font-size: 20px;
 
 }
 #home{
