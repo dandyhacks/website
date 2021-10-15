@@ -1,3 +1,7 @@
+body {
+    font-family: 'Futura', sans-serif;
+}
+
 @font-face {
     font-family: Pixel;
     src: url('PixelEmulator.otf');
@@ -120,16 +124,26 @@ div.rushRhees {
 
 /* buttons */
 
-.buttons {
+.buttons{
     height: 10rem;
     width: 30rem;
     border-radius: 65px !important;
     border-width: 10px !important;
     border-color: #F9F9F9 !important;
-    box-shadow: 0 16px 16px 0 rgba(64, 42, 133, 0.2), 20px 20px 30px 20px rgba(64, 42, 133, 0.19);
+    box-shadow: 0 16px 16px 0 rgba(64, 42, 133, 0.2), 0px 20px 30px 20px rgba(64, 42, 133, 0.19);
     background-color: #230C49 !important;
     color: white !important;
 }
+/* 
+.buttons[disabled] {
+
+} */
+
+.buttons:hover:enabled{
+    background-color: #2a0e57 !important;
+    box-shadow: 0 16px 16px 0 rgb(64 42 133 / 80%), 0px 5px 30px 20px rgb(64 42 133 / 80%);
+}
+
 
 .buttonLabel {
     color: white;
@@ -217,6 +231,10 @@ Section Stuff
     .sectionImage {
         height: 8rem;
     }
+}
+
+.padding-below{
+
 }
 
 

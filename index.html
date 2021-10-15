@@ -103,18 +103,18 @@
         <div class="container-fluid mt-4 pt-4">
             <div class="row">
                 <div class="col-md-6 me-auto">
-                    <button type="button" class="buttons btn" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSfhx4d0Fa_tE49yPZ49OFFKwipUKR7o4Bdqok6SAKFaDGL3Fg/viewform'">
+                    <button type="button" class="buttons btn" onclick= "window.open('https://docs.google.com/forms/d/e/1FAIpQLSfhx4d0Fa_tE49yPZ49OFFKwipUKR7o4Bdqok6SAKFaDGL3Fg/viewform','_blank');" >
                         <div class="row text-center">
                             <div class="col-3"> <img class="buttonIcon" src="img/reg.png"></div>
 
-                            <div class="col-9 mt-3 buttonLabel" >
+                            <div class="col-9 mt-3 buttonLabel">
                                 Registration</div>
                         </div>
                     </button>
                 </div>
 
                 <div class="col-md-6 ms-auto pt-5 pt-lg-0">
-                    <button type="button" class="buttons btn">
+                    <button disabled type="button" class="buttons btn">
                         <div class="row text-center">
                             <div class="col-3"> <img class="buttonIcon" src="img/clock.png"></div>
 
@@ -172,49 +172,15 @@
         <div class="row p-4 p-md-5 m-md-5 text-center">
             <div class="col-12 col-md-6">
                 <div class="card cardBorder bg-transparent pt-4 answer">
-
                     <div class="card-header" data-toggle="collapse" data-target="#panel-1">
                         <p class="cardTitle">What is a hackathon?</p>
                     </div>
                 </div>
 
-            </div>
-
-            <div class="col-12 col-md-6">
-                <div class="card cardBorder bg-transparent pt-4 answer">
-
-                    <div class="card-header" data-toggle="collapse" data-target="#panel-1">
-                        <p class="cardTitle"> Who is eligible to join?</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-12 col-md-6">
-                <div class="card cardBorder bg-transparent pt-4 answer">
-
-                    <div class="card-header" data-toggle="collapse" data-target="#panel-1">
-                        <p class="cardTitle">Do I have to pay to get in?</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-12 col-md-6">
-                <div class="card cardBorder bg-transparent pt-4 answer">
-
-                    <div class="card-header" data-toggle="collapse" data-target="#panel-1">
-                        <p class="cardTitle"> Will the hackathon be in person or virtual?</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-12 col-md-6">
-                <div class="card cardBorder bg-transparent pt-4 answer">
-
-                    <div class="card-header" data-toggle="collapse" data-target="#panel-1">
-                        <p class="cardTitle"> What safety protocols are in place to protect the community?
+                <div class="collapse" id="panel-1">
+                    <div class=" card card-body bg-transparent border-0 answer">
+                        <p>
+                            A hackathon is an event in which people meet to collaboratively build out their ideas using technology!
                         </p>
                     </div>
                 </div>
@@ -223,9 +189,16 @@
 
             <div class="col-12 col-md-6">
                 <div class="card cardBorder bg-transparent pt-4 answer">
+                    <div class="card-header" data-toggle="collapse" data-target="#panel-2">
+                        <p class="cardTitle">Who is eligible to join?</p>
+                    </div>
+                </div>
 
-                    <div class="card-header" data-toggle="collapse" data-target="#panel-1">
-                        <p class="cardTitle"> Can I sign up with a team? What if I don’t have one?</p>
+                <div class="collapse" id="panel-2">
+                    <div class=" card card-body bg-transparent border-0 answer">
+                        <p>Any graduate or undergraduate students over the age of 18 enrolled in a North American institution is eligible.</p>
+                        <p>All hackers must be vaccinated, we will require proof upon check-in.</p>
+                        <p>Everyone must be masked indoors according to university policy.</p>
                     </div>
                 </div>
 
@@ -233,9 +206,16 @@
 
             <div class="col-12 col-md-6">
                 <div class="card cardBorder bg-transparent pt-4 answer">
+                    <div class="card-header" data-toggle="collapse" data-target="#panel-3">
+                        <p class="cardTitle">Do I have to pay to get in?</p>
+                    </div>
+                </div>
 
-                    <div class="card-header" data-toggle="collapse" data-target="#panel-1">
-                        <p class="cardTitle"> Can I start hacking before the event?</p>
+                <div class="collapse" id="panel-3">
+                    <div class=" card card-body bg-transparent border-0 answer">
+                        <p>
+                            We will never ask you to pay a single dollar. DandyHacks is completely free. We will foot the bill for all the speakers, food, and swag.
+                        </p>
                     </div>
                 </div>
 
@@ -243,19 +223,100 @@
 
             <div class="col-12 col-md-6">
                 <div class="card cardBorder bg-transparent pt-4 answer">
+                    <div class="card-header" data-toggle="collapse" data-target="#panel-4">
+                        <p class="cardTitle">Will the hackathon be in person or virtual?</p>
+                    </div>
+                </div>
 
-                    <div class="card-header" data-toggle="collapse" data-target="#panel-1">
+                <div class="collapse" id="panel-4">
+                    <div class=" card card-body bg-transparent border-0 answer">
+                        <p>
+                            As of October 1st, the hackathon will be in person. If cases increase dramatically, the hackathon may be moved to a virtual platform. Our hackers’ and community’s safety are our biggest priority.<br> There may be a
+                            mix of virtual technical workshops.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="card cardBorder bg-transparent pt-4 answer">
+                    <div class="card-header" data-toggle="collapse" data-target="#panel-5">
+                        <p class="cardTitle">What safety protocols are in place to protect the community?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="collapse" id="panel-5">
+                    <div class=" card card-body bg-transparent border-0 answer">
+                        <p>
+                            University of Rochester COVID-19 protocols: https://www.rochester.edu/coronavirus-update/
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="card cardBorder bg-transparent pt-4 answer">
+                    <div class="card-header" data-toggle="collapse" data-target="#panel-6">
+                        <p class="cardTitle">Can I sign up with a team? What if I don’t have one?</p>
+                    </div>
+                </div>
+
+                <div class="collapse" id="panel-6">
+                    <div class=" card card-body bg-transparent border-0 answer">
+                        <p>
+                            Absolutely! Keeping in line with our previous years, you’ll be able to submit a project with three additional teammates!
+                        </p>
+                        <p>
+                            If you don’t have a team though, we’ll have a team building channel in our Discord!
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="card cardBorder bg-transparent pt-4 answer">
+                    <div class="card-header" data-toggle="collapse" data-target="#panel-7">
+                        <p class="cardTitle">Can I start hacking before the event?</p>
+                    </div>
+                </div>
+
+                <div class="collapse" id="panel-7">
+                    <div class=" card card-body bg-transparent border-0 answer">
+                        <p>
+                            All projects must be made during the time frame of the event. Planning and gathering resources before the event are ok.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="card cardBorder bg-transparent pt-4 answer">
+                    <div class="card-header" data-toggle="collapse" data-target="#panel-8">
                         <p class="cardTitle"> I still have questions...</p>
                     </div>
                 </div>
 
+                <div class="collapse" id="panel-8">
+                    <div class=" card card-body bg-transparent border-0 answer">
+                        <p>
+                            Reach out to us at greetings@dandyhacks.net, or drop us a line on Facebook, Instagram, Twitter, or LinkedIn!                        </p>
+                    </div>
+                </div>
+
             </div>
+
+            
 
         </div>
 
     </div>
 
-    <div class="container-fluid text-center">
+    <div class="container-fluid text-center padding-below">
         <div class="row">
             <div class="col-12">
                 <h2 class="sectionTitle "> TRACKS
