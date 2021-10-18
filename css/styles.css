@@ -134,10 +134,7 @@ div.rushRhees {
     background-color: #230C49 !important;
     color: white !important;
 }
-/* 
-.buttons[disabled] {
 
-} */
 
 .buttons:hover:enabled{
     background-color: #2a0e57 !important;
@@ -234,6 +231,12 @@ Section Stuff
 }
 
 
+.sponsor-logos img{
+    width: 30%;
+    cursor:pointer;
+}
+
+
 /*
 CARDS FOR FAQ
  */
@@ -292,6 +295,12 @@ CARDS FOR FAQ
         font-size: 2rem;
     }
 }
+
+
+
+/* 
+FOOTER
+*/
 
 #footer {
     background-color: #1C1C6E;
